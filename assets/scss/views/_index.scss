@@ -1,0 +1,73 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/assets/image/fondo5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    ul{
+        li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+            a{
+                color: $colorBlanco;
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: capitalize;
+                font-size: 20px;
+                &:hover{
+                    color: $colorRojo;
+                    transition: .4s;
+                }
+            }
+
+            
+        }
+        
+    }
+}
+
+.logo {
+    color: $colorBlanco;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.span-portfolio{
+    color: $colorRojo;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.h1-nombre{
+    color: $colorBlanco;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.h4-hola{
+    color: $colorGris;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.h3-presenta{
+    color: $colorBlanco;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
