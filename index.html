@@ -10,35 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<body>
+<body class="body">
     
     <div class="hero">
             <nav class="navbar">
                 <h2 class="logo">Mi <span class="span-portfolio">Portfolio</span></h2>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Acerca de mí</a></li>
+                    <li><a class="link" href="#home">Home</a></li>
+                    <li><a class="link" href="#acerca-de-mi">Acerca de mí</a></li>
                     <li>
                         <a href="#">Mis proyectos</a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">Sula Bar</a>
+                                <a class="link" href="#barsula">Sula Bar</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Mi CV</a></li>
-                    <li><a href="#">Contáctame</a></li>
+                    <li><a class="link" href="#mis-skills">Mis Skills</a></li>
+                    <li><a class="link" href="#">Mi CV</a></li>
+                    <li><a class="link" href="#">Contáctame</a></li>
                 </ul>
             </nav>
-            <div class="contenido">
+            <div class="contenido" id="home">
                 <h4 class="h4-hola">Hola, mi nombre es</h4>
                 <h1 class="h1-nombre">Diego <span class="span-portfolio">Suárez</span></h1>
                 <h3 class="h3-presenta">Soy <span class="span-portfolio">Desarrollador Web</span> y Estudiante de <span class="span-portfolio">Ingeniería en Software.</span></h3>
             </div>
     </div>
 
-    <section class="acerca-de-mi">
+    <section class="acerca-de-mi" id="acerca-de-mi">
         <div class="main">
             <img src="./assets/image/foto-diego.jpg" alt="foto diego">
             <div class="acerca-de-texto">
@@ -56,9 +56,9 @@
             <h2>Mis <span class="span-portfolio">Proyectos</span></h2>
         </div>
 
-        <div class="box">
+        <div class="box" id="barsula">
             <div class="tarjeta">
-                <img class="logo-redondeado imagen-proyecto" src="./assets/image/logo_sula.png" alt="logo sula" width="150px" height="150px">
+                <a href="https://barsula.netlify.app/" target="_blank"><img class="logo-redondeado imagen-proyecto" src="./assets/image/logo_sula.png" alt="logo sula" width="150px" height="150px"></a>
                 <h5 class="h5-proyecto">Sula Bar</h5>
                 <div class="texto-mis-proyectos">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos natus ipsam, et impedit expedita, dolor vero alias, quia officiis id nesciunt excepturi odio nihil rerum? Cupiditate corrupti dolore voluptas dolores.</p>
@@ -66,6 +66,74 @@
             </div>
         </div>
     </div>
+
+    <div class="mis-skills" id="mis-skills">
+        <div class="titulo-mis-skills">
+            <h2>Mis Skills y <span class="span-portfolio">Tecnológias</span></h2>
+        </div>
+
+    
+        <div class="box2">
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">HTML5</h2> -->
+                <img class="logo-skill" src="./assets/image/logo-html5.png" alt="logo html5">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">CSS3</h2> -->
+                <img class="logo-skill" src="./assets/image/logo-css3.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">JAVASCRIPT</h2> -->
+                <div>
+                    <img class="logo-skill" src="./assets/image/logo-js.png" alt="">
+                </div>
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">SASS</h2> -->
+                <div>
+                    <img src="./assets/image/logo-sass.png" class="logo-skill" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">BOOTSTRAP</h2> -->
+                <img class="logo-skill" src="./assets/image/logo-bootstrap.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">GIT</h2> -->
+                <img class="logo-skill" src="./assets/image/logo-git.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">GITHUB</h2> -->
+                <img class="logo-skill" src="./assets/image/logo-github.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">JAVA</h2> -->
+                <img src="./assets/image/logo-java.png" class="logo-skill" alt="">
+            </div>
+        </div>
+        <div class="box2">
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">AUTODIDACTA</h2> -->
+                <img class="logo-skill" src="./assets/image/estudiando.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">TRABAJO EN EQUIPO</h2> -->
+                <img class="logo-skill" src="./assets/image/united.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">ANALITICO</h2> -->
+                <img class="logo-skill" src="./assets/image/analizar.png" alt="">
+            </div>
+            <div class="skill">
+                <!-- <h2 class="titulo-skill">CREATIVO</h2> -->
+                <img src="./assets/image/inspiracion.png" class="logo-skill" alt="">
+            </div>
+        </div>
+    </div>
+
+
 
 
 </body>
